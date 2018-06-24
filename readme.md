@@ -35,9 +35,9 @@ Different varieties of the same fruit (apple for instance) are stored as belongi
 
 ## Repository structure ##
 
-Inside the [Data] (Data) folder, folders [Training](Training) and [Validation](Validation) contain all images with white backgrounds only.
+Inside the [Data] (Data) folder, folders [Training](Data/Training) and [Validation](Data/Validation) contain all images with white backgrounds only.
 
-## Citation##
+## Citation ##
 
 Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017
 
