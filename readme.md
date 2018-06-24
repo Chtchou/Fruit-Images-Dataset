@@ -5,7 +5,7 @@ We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
 For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow: a wrapper to simplify the basic tasks and accelerate analysis.
 
 Fastai can be installed from the following link: https://github.com/fastai . 
-Then it is necessary to create a simlink to the fastai repository to be able to use library.
+Then it is necessary to create a simlink to the fastai repository to be able to use the library.
 
 The Dataset can be found on Github: 
 https://github.com/Horea94/Fruit-Images-Dataset .  
@@ -13,14 +13,14 @@ or on Kaggle:
 https://www.kaggle.com/moltean/fruits .
 
 __*Note:*__ The dataset is regularly updated with new fruits. For reproductibility purpose we added on the github, the version of the dataset used for our classification.
-Therefore the process for classifying the fruits images remaining identical, and is not dependant of the number of image classes.
+Therefore the process for classifying the fruits images remaining identical, and is not dependent on the number of image classes.
 
 ## Repository structure ##
 
 Folders [Training](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Training) and [Validation](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Validation) contain all images with white backgrounds only.
-Each folder above, contains one folder for each class of fruit.
+Each folder above contains one folder for each class of fruit.
 
-# Specifications about the dataset #
+# Specifications about the dataset from authors #
 
 ## Fruits-360: A dataset of images containing fruits ##
 
@@ -57,4 +57,3 @@ we start from each edge of the image and we mark all pixels there, then we mark 
 All marked pixels are considered as being background (which is then filled with white) and the rest of pixels are considered as belonging to the object.
 
 The maximum value for the distance between 2 neighbor pixels is a parameter of the algorithm and is set (by trial and error) for each movie.
-
