@@ -2,6 +2,7 @@ We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
 For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow : a wrapper to simplify the basic tasks and accelerate analysis.
 
 Fastai can be installed from the following link :https://github.com/fastai
+Then it is necessary to create a simlink to the fastai repository to be able to use library.
 
 The Dataset can be found on Github: 
 https://github.com/Horea94/Fruit-Images-Dataset
