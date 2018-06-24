@@ -35,14 +35,7 @@ Different varieties of the same fruit (apple for instance) are stored as belongi
 
 ## Repository structure ##
 
-Folders [Training](Training) and [Validation](Validation) contain all images with white backgrounds only.
-
-Folder [test-multiple_fruits](test-multiple_fruits) contains images with multiple fruits. Some of them are partially covered by other fruits. This is an excelent test for real-world detection.
-
-Folder [src](src) contains the python code for training the neural network. It uses the TensorFlow library.
-
-Folder [src/utils](src/utils) contains the C++ code used for extracting the fruits from the background. 
-
+Inside the [Data] (Data) folder, folders [Training](Training) and [Validation](Validation) contain all images with white backgrounds only.
 
 ## Citation##
 
