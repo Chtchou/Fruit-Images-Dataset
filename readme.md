@@ -1,23 +1,33 @@
 We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
+
+**Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017**
+
 For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow : a wrapper to simplify the basic tasks and accelerate analysis.
 
-Fastai can be installed from the following link :https://github.com/fastai
+Fastai can be installed from the following link :https://github.com/fastai  
 Then it is necessary to create a simlink to the fastai repository to be able to use library.
 
 The Dataset can be found on Github: 
-https://github.com/Horea94/Fruit-Images-Dataset
+https://github.com/Horea94/Fruit-Images-Dataset  
 or on Kaggle :
 https://www.kaggle.com/moltean/fruits
 
 *Note* The dataset is regularly updated with new fruits. For reproductibility purpose we added on the github, the version of the dataset used for our classification.
 Therefore the process for classifying the fruits images remaining identical, and is not dependant of the number of image classes.
 
-# Fruits-360: A dataset of images containing fruits #
+## Repository structure ##
+
+Folders[Training](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Training) and [Validation](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Validation) contain all images with white backgrounds only.
+
+
+# Specifications about the dataset #
+
+## Fruits-360: A dataset of images containing fruits ##
 
 A high-quality, dataset of images containing fruits. The following fruits are included: 
 Apples (different varieties: Golden, Golden-Red, Granny Smith, Red, Red Delicious), Apricot, Avocado, Avocado ripe, Banana (Yellow, Red), Cactus fruit, Cantaloupe (2 varieties), Carambula, Cherry (different varieties, Rainier), Clementine, Cocos, Dates, Granadilla, Grape (Pink, White, White2), Grapefruit (Pink, White), Guava, Huckleberry, Kiwi, Kaki, Kumsquats, Lemon (normal, Meyer), Lime, Litchi, Mandarine, Mango, Maracuja, Nectarine, Orange, Papaya, Passion fruit, Peach, Pepino, Pear (different varieties, Abate, Monster, Williams), Pineapple, Pitahaya Red, Plum, Pomegranate, Quince, Raspberry, Salak, Strawberry, Tamarillo, Tangelo.
 
-## Dataset properties ##
+### Dataset properties ###
 
 Total number of images: 42345.
 
@@ -33,15 +43,7 @@ Filename format: image_index_100.jpg (e.g. 32_100.jpg) or r_image_index_100.jpg 
 
 Different varieties of the same fruit (apple for instance) are stored as belonging to different classes.
 
-## Repository structure ##
-
-Inside the [Data] (Data) folder, folders [Training](Data/Training) and [Validation](Data/Validation) contain all images with white backgrounds only.
-
-## Citation ##
-
-Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017
-
-## How the dataset was created ##
+### How the dataset was created ###
 
 Fruits were planted in the shaft of a low speed motor (3 rpm) and a short movie of 20 seconds was recorded. 
 

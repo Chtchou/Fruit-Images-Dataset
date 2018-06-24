@@ -3,4 +3,4 @@
 src/
 models/
 tmp/
-.ipynb_checkpoints
+".ipynb_checkpoints/"
