@@ -2,23 +2,23 @@ We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
 
 **Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017**
 
-For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow : a wrapper to simplify the basic tasks and accelerate analysis.
+For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow: a wrapper to simplify the basic tasks and accelerate analysis.
 
-Fastai can be installed from the following link :https://github.com/fastai  
+Fastai can be installed from the following link: https://github.com/fastai . 
 Then it is necessary to create a simlink to the fastai repository to be able to use library.
 
 The Dataset can be found on Github: 
-https://github.com/Horea94/Fruit-Images-Dataset  
-or on Kaggle :
-https://www.kaggle.com/moltean/fruits
+https://github.com/Horea94/Fruit-Images-Dataset .  
+or on Kaggle:
+https://www.kaggle.com/moltean/fruits .
 
-*Note* The dataset is regularly updated with new fruits. For reproductibility purpose we added on the github, the version of the dataset used for our classification.
+__*Note:*__ The dataset is regularly updated with new fruits. For reproductibility purpose we added on the github, the version of the dataset used for our classification.
 Therefore the process for classifying the fruits images remaining identical, and is not dependant of the number of image classes.
 
 ## Repository structure ##
 
-Folders[Training](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Training) and [Validation](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Validation) contain all images with white backgrounds only.
-
+Folders [Training](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Training) and [Validation](https://github.com/Chtchou/Fruit-Images-Dataset/tree/master/data/Validation) contain all images with white backgrounds only.
+Each folder above, contains one folder for each class of fruit.
 
 # Specifications about the dataset #
 
