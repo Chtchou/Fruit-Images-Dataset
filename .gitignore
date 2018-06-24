@@ -1,2 +1,6 @@
 **/models
 **/tmp
+src/
+models/
+tmp/
+.ipynb_checkpoints
