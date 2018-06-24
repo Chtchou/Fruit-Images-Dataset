@@ -1,6 +1,17 @@
-# Fruits-360: A dataset of images containing fruits #
+We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
+For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow : a wrapper to simplify the basic tasks and accelerate analysis.
 
-# Version: 2018.05.26.0 #
+Fastai can be installed from the following link :https://github.com/fastai
+
+The Dataset can be found on Github: 
+https://github.com/Horea94/Fruit-Images-Dataset
+or on Kaggle :
+https://www.kaggle.com/moltean/fruits
+
+*Note* The dataset is regularly updated with new fruits. For reproductibility purpose we added on the github, the version of the dataset used for our classification.
+Therefore the process for classifying the fruits images remaining identical, and is not dependant of the number of image classes.
+
+# Fruits-360: A dataset of images containing fruits #
 
 A high-quality, dataset of images containing fruits. The following fruits are included: 
 Apples (different varieties: Golden, Golden-Red, Granny Smith, Red, Red Delicious), Apricot, Avocado, Avocado ripe, Banana (Yellow, Red), Cactus fruit, Cantaloupe (2 varieties), Carambula, Cherry (different varieties, Rainier), Clementine, Cocos, Dates, Granadilla, Grape (Pink, White, White2), Grapefruit (Pink, White), Guava, Huckleberry, Kiwi, Kaki, Kumsquats, Lemon (normal, Meyer), Lime, Litchi, Mandarine, Mango, Maracuja, Nectarine, Orange, Papaya, Passion fruit, Peach, Pepino, Pear (different varieties, Abate, Monster, Williams), Pineapple, Pitahaya Red, Plum, Pomegranate, Quince, Raspberry, Salak, Strawberry, Tamarillo, Tangelo.
@@ -32,15 +43,11 @@ Folder [src](src) contains the python code for training the neural network. It u
 Folder [src/utils](src/utils) contains the C++ code used for extracting the fruits from the background. 
 
 
-## Neural network code ##
-
-We have implemented a convolutional network for classifying the images. See the [src/image_classification](src/image_classification) folder for more details
-
-## How to cite ##
+## Citation##
 
 Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017
 
-## How we created the dataset ##
+## How the dataset was created ##
 
 Fruits were planted in the shaft of a low speed motor (3 rpm) and a short movie of 20 seconds was recorded. 
 
@@ -55,46 +62,3 @@ All marked pixels are considered as being background (which is then filled with 
 
 The maximum value for the distance between 2 neighbor pixels is a parameter of the algorithm and is set (by trial and error) for each movie.
 
-## Results ##
-
-We have run [TensorFlow](https://github.com/tensorflow/tensorflow) on these data and the results are presented in the file from [papers](papers) folder.
-
-## History ##
-
-Fruits were filmed at the dates given below:
-
-2017.02.25 - Apple (golden).
-
-2017.02.28 - Apple (red-yellow, red, golden2), Kiwi, Pear, Grapefruit, Lemon, Orange, Strawberry.
-
-2017.03.05 - Apple (golden3, Braeburn, Granny Smith, red2).
-
-2017.03.07 - Apple (red3).
-
-2017.05.10 - Plum, Peach, Peach flat, Apricot, Nectarine, Pomegranate.
-
-2017.05.27 - Avocado, Papaya, Grape, Cherrie.
-
-2017.12.25 - Carambula, Cactus fruit, Granadilla, Kaki, Kumsquats, Passion fruit, Avocado ripe, Quince.
-
-2017.12.28 - Clementine, Cocos, Mango, Lime, Litchi.
-
-2017.12.31 - Apple Red Delicious, Pear Monster, Grape White.
-
-2018.01.14 - Banana, Grapefruit Pink, Mandarine, Pineapple, Tangelo.
-
-2018.01.19 - Huckleberry, Raspberry.
-
-2018.01.26 - Dates, Maracuja, Salak, Tamarillo.
-
-2018.02.05 - Guava, Grape White 2, Lemon Meyer
-
-2018.02.07 - Banana Red, Pepino, Pitahaya Red.
-
-2018.02.08 - Pear Abate, Pear Williams.
-
-2018.05.22 - Lemon rotated, Pomegranate rotated
-
-2018.05.24 - Cherry Rainier, Cherry 2
-
-2018.05.26 - Cantaloupe (2 varieties)
