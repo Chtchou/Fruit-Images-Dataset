@@ -1,6 +1,6 @@
 We built here a basic classifier regarding the Fruits - 360 Data from Kaggle.
 
-**Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, Babes-Bolyai University, 2017**
+>**Horea Muresan, [Mihai Oltean](https://mihaioltean.github.io), Fruit recognition from images using deep learning, Technical Report, >Babes-Bolyai University, 2017**
 
 For this we use the fastai library which is running with the PyTorch backend. Fastai is to PyTorch, what Keras is to TensorFlow: a wrapper to simplify the basic tasks and accelerate analysis.
 
